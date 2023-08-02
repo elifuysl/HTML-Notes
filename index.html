@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="💚Elif's HTML Notes💚">
+    <title>💚Elif's HTML Notes💚</title>
+</head>
+<body>
+    <img src="cool.jpg" alt="I'm a cool person because learning html" size="500" width="500" align="center">
+    <h1 style="color:greenyellow;">Elif's HTML Notes💚</h1>
+    <hr width="250" size="15" color="#9FF99" align="left">
+
+    <h2 style="color:green">Lesson1: What are elements? </h2>
+    <p><b>Elements</b> are everything we use while coding in html.It comes together from tags which are every code.</p>
+    <strong><em>For example;</em></strong>
+    <ol>
+        <li><strong>Use of h1 to 6</strong></li>
+        <p>When we want to have a headline, we have 1 to 6 options like h1 to h6.</p>
+        <p>These options help us to have different sized headlines. H1 is the most stong and bigger one but h6 is much more close to normal typing size.</p>
+        <p>Let's check the headlines together:</p>
+        <h1>h1</h1>
+        <h2>h2</h2>
+        <h3>h3</h3>
+        <h4>h4</h4>
+        <h5>h5</h5>
+        <h6>h6</h6>
+        <p>and this is the typing in normal size</p>
+         <li><strong>Use of < hr > </strong></li>
+         <p>When we want to have a line we type as < hr > and this is a self-closed tag. So, we dont need to close the tag after using it. If u want and example about this u can check the green line above.</p>
+         <p>We can check the different features that we can create with hr tag in <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/hr">mdn.</a> When we check the mdn, se see that there are some features like:</p>
+         <ul><li>size</li>
+        <li>align</li>
+    <li>color</li>
+<li>width</li></ul>
+<p>Only thing that we need to do is openning a tag and color="writing the answer"</p> <p>thats all.</p>
+<li><strong>Having breaks/empty lines</strong></li>
+<p>This tag is a self-closed tag, so again we dont need to close it with /. Also, only thing we need to write is < br > to end of sentence <br> and that's all. For more details u can check <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/br">here.</a> Also, u can do the same thing with closing the paragrph tag before and openning again in the same line.</p>
+<li><strong>Listing things in an order such as 1-2-3..etc.</strong></li>
+<p>When we want to list things in an order (1-2-3...), we need to firstly write: < ol > in continiution < li > and < / li > should be written and then of course closing the ol tag: < /ol ></p>
+<p>If we dont close the ol part, we can add so many thing after the < li > tags. For example; I'm adding links, sentences after using this tags.</p> 
+<p>To learn much more about the ol please check <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/ol">here.</a> and to learn more about li please check <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/li">here.</a></p>   
+<li><strong>Listing things in unordered way</strong></li>
+<p>When we want to list things in unordered way. We need to use < ul > and then < /ul >. For the details about this lines, we'll meet again. To learn much more about ul please check <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/ul">here.</a> </p>
+<li><strong>Use of < em > </strong></li>
+<p> < em > is a tag which helps us to make our text italic and when we use em tag we need to close it unlike the self-closing tags.</p>
+<p><em><strong>For example this</strong></em></p>
+<p>To learn much more about < em > tag, please check <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/em">here.</a></p>
+<li><strong>Linking a new page to your website</strong></li>
+<p>This linking style is different from other. Firstly, you need to have a title with h2 to show that it opens a new web page to your website. To do this let's open a new file on our visual studip html file.</p>
+<img src="example.png" alt="Picture 1 of example" size="200" width="200">
+<p>After having a new file, we need to enter the html:5 codes like we did in this file.</p>
+<img src="example2.png" size="500" width="500" alt="picture 2 of example">
+<p>After filling our new file, we need to link that file to our main doc. <em><strong>like this:</strong></em></p>
+<p>< <em> img src="writing the name of doc.(which will help us to display)" alt="writing the name of doc for noticing it"> </em> </p>
+<li><strong>Change the dolor of h1 and p</strong></li>
+<p style="color:brown;"> To change the color of h an p tags, we need to firslty focus on the openning tags.</p>
+<p>When we enter the opening tag as: <em> < p style="color:thecolorIwanttoenter;"> Write whatever u want </ p></em></p>
+<li><strong>The use of Tables</strong></li>
+<p>Table is an important thing to use in html. There are three different sub table tags such as: </p>
+<ul>
+    <li>< thead> and < / thead > </li>
+    <p>This one helps us to define a set of rows defining the head of the columns of the table.</p>
+    <li> < tbody> and < / tbody> </li>
+    <p>This element defines a set of rows defining the head of the columns of the table</p>
+    <li>< tfoot > and < / tfoot > </li>
+    <p>It helps us to summarize the columns of the table.</p>
+    <p><strong><em>For example;</em></strong></p>
+    <table border="3">
+        <thead>
+            <th>Phone name</th>
+            <th>Phone model</th>
+        </thead>
+        <tbody>
+        <tr>
+            <td>Samsung</td>
+            <td>Z flip3</td>
+        </tr>
+        <tr>
+            <td>Iphone</td>
+            <td>14 plus</td>
+        </tr>
+        </tbody>
+        <tfoot>
+        <tr>
+            <th>Total</th>
+            <th>Two phones</th>
+        </tr>
+        </tfoot>
+    </table>
+    <br>
+
+    <li>Adding border to table</li>
+    <p>To add a border line to table, we need to open a table element and before closiing the openning element write border="amount of pixels" and close the tag</p>
+    <p><strong><em>For example</em></strong></p>
+    <P> < table border="3" > </P>
+    <li>Use of tr</li>
+    <p> < tr > HTML element defines a row of cells in a table. The row's cells can then be established using a mix of < td > (data cell) and < th > (header cell) elements.</p>
+    <p><strong>How to use tr:</strong></p>
+    <br>
+    <table cellspacing="1" border="1">
+        <tr>
+            <th>Name</th>
+            <th>Loves</th>
+            <th>Doesn't love</th>
+        </tr>
+        <tr>
+        <th>Elif</th>
+        <td>Loves</td>
+        <td></td>
+        </tr>
+        <tr>
+            <th>Filiz</th>
+            <td></td>
+            <td>Doesnt love</td>
+        </tr>
+        <caption style="color:aqua;">Who loves coffee?</caption>
+    </table>
+    <p>Instead of using tbody, thead or tfoot, we can just use tr. After writing tr, we can just use th for the headings, use td for the regular texts.</p>
+</ul>
+<li><strong>How does forms work?</strong></li>
+<p>To have forms we firstly start with < form > openning element and start to use any label or input that we want</p>
+<p>For instance, if I want to have a calander on my website, I'm gonna type these elemts:</p>
+<form>
+    <p><strong>type: < label for="calander"> Calander < / label></strong></p>
+    <p><strong>type: < input type="date" name="calander" id="calander"</strong></p>
+    <label for="Calander">Calander</label>
+    <input type="date" name="calander" id="calander">
+</form>
+<form> 
+    <p><strong>type: < label for="textbox"> Name < / label></strong></p>
+    <p><strong>type: < input type="text"> </strong></p>
+    <label for="textbox">Name</label>
+    <input type="text">
+</form>
+<form>
+    <p><strong>type: < label for="password">Password< /label></strong></p>
+    <p><strong>type: < input type="password"></strong></p>
+    <label for="password">Password</label>
+    <input type="password">
+</form>
+<form action="submit">
+    <input type="submit">
+</form>
+<form action="choose file">
+    <input type="file">
+    <br>
+    <input type="checkbox">
+    <br>
+    <input type="range">
+    <br>
+    <input type="radio">
+</form>
+</ol>
+</body>
+</html>
